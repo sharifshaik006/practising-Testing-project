@@ -10,6 +10,6 @@ RESULT=$((NUMBER1+NUMBER2))
 
 echo "adding is ${RESULT}"
 
-FRUITS=("apples grapes mangoes")
+FRUITS=("apples" "grapes" "mangoes")
 
 echo "the name of the element is ${FRUITS[2]}"
