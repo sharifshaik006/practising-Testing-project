@@ -12,4 +12,4 @@ echo "adding is ${RESULT}"
 
 FRUITS=("apples grapes mangoes")
 
-echo "the name of the 2element is ${FRUITS[2]}
+echo "the name of the 2element is ${FRUITS[2]}"
