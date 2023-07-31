@@ -1,10 +1,13 @@
 #!/bin/bash
 
+#learning about variables in scripting
+#variable and inside the variable content as output DATE=Linux command 
+
 NAME=SHAIK
 SURNAME=KING
 
 echo "this is ${NAME}"
-ECHO "THIS is ${kING}
+echo "THIS is ${kING}
 
 DATE=(date +%F)
 
@@ -23,3 +26,4 @@ read -s USERNAME
 echo "what is Password"
 
 read -s PASSWORD
+
