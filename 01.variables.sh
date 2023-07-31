@@ -9,7 +9,7 @@ SURNAME=KING
 echo "this is ${NAME}"
 echo "THIS is ${kING}
 
-DATE=(date +%F)
+DATE=$(date +%F)
 
 echo ${DATE}
 
