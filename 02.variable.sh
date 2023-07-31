@@ -9,7 +9,6 @@ NUMBER2=399
 RESULT=$((NUMBER1+NUMBER2))
 
 echo "adding is ${RESULT}"
-
-FRUITS=("apples" "grapes" "mangoes")
+FRUITS=("Apples" "Grapes" "Mangoes")
 
 echo "the name of the element is ${FRUITS[2]}"
