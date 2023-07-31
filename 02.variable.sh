@@ -6,8 +6,9 @@
 
 NUMBER1=200
 NUMBER2=399
+RESULT=$((NUMBER1+NUMBER2))
 
-echo "adding is ${NUMBER1}+${NUMBER2}
+echo "adding is ${RESULT}"
 
 FRUITS=("apples grapes mangoes")
 
