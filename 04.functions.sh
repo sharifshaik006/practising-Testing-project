@@ -34,13 +34,13 @@ fi
 
 apt install git -y
 
-VALIDATE $? "GIT Installation'
+VALIDATE $? "GIT Installation"
 
 apt install wget -y
-VALIDATE $? "WGET Installation'
+VALIDATE $? "WGET Installation"
 
 apt install vim -y
-VALIDATE $? "vim Installation'
+VALIDATE $? "vim Installation"
 
 apt install net-tools -y
-VALIDATE $? "NET-TOOLS Installation'
+VALIDATE $? "NET-TOOLS Installation"
