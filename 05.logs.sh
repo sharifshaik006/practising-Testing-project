@@ -50,3 +50,4 @@ VALIDATE $? "vim Installation"
 
 apt install net-tools -y &>>$LOG_FILE
 VALIDATE $? "NET-TOOLS Installation"
+
