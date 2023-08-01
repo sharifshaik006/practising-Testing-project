@@ -45,7 +45,7 @@ VALIDATE $? "GIT Installation"
 apt install wget -y &>>$LOG_FILE
 VALIDATE $? "WGET Installation"
 
-apt install vimMM -y &>>$LOG_FILE
+apt install vim -y &>>$LOG_FILE
 VALIDATE $? "vim Installation"
 
 apt install net-tools -y &>>$LOG_FILE
