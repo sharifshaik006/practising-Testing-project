@@ -26,7 +26,7 @@ VALIDATE(){
 if [ $1 -ne 0 ]
 then 
  echo " $2 then ....FAILED "
- exit1
+ exit 1
 else 
  echo  " $2 THEN .......SUCCESS "
 fi
