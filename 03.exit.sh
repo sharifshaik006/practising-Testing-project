@@ -42,7 +42,7 @@ else
  exit 1
 fi
 echo "installing Git"
-apt install git -y
+apt install gittttt -y
 
 if [ $? -eq 0 ]
 then 
