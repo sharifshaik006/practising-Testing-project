@@ -15,7 +15,7 @@
 # we are creating a log file each time when it is executing the script to track 
 
 USERID=$(id -u)
-DATE=$(date +"%F %H:%M:%S")
+DATE=$(date +"%F_%H-%M-%S")
 LOG_FILE=$DATE
 
 if [ $USERID -ne 0 ]
@@ -32,7 +32,7 @@ VALIDATE(){
 if [ $1 -ne 0 ]
 then 
  echo " $2 then ....FAILED " &>>$LOG_FILE
- exit1
+ exit 1
 else 
  echo  " $2 THEN .......SUCCESS " &>>$LOG_FILE
 fi
