@@ -18,3 +18,4 @@ echo "adding is ${RESULT}"
 FRUITS=("Apple" "Bananna" "cat")
 
 echo "the name of the element is ${FRUITS[2]}"
+
