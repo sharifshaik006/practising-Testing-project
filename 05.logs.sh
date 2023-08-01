@@ -16,7 +16,8 @@
 
 USERID=$(id -u)
 DATE=$(date +"%F_%H-%M-%S")
-LOG_FILE=$DATE
+LOG_FILE="/home/ubuntu/logs/$DATE.log"
+
 
 if [ $USERID -ne 0 ]
 then
