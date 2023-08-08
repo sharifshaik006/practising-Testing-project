@@ -10,6 +10,6 @@ ALERT_MESSAGE="Warning! Disk space on $PARTITION is below the threshold."
 USED_SPACE=$(df | grep "$PARTITION" | awk '{print $5}' | sed 's/%//')
 
 # Compare and send alert if below threshold
-if (( USED_SPACE > THRESHOLD )); then
+if (( USED_SPACE > $THRESHOLD )); then
     echo "$ALERT_MESSAGE" | mail -s "Disk Space Alert" "$EMAIL"
 fi
