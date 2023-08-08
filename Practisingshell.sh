@@ -2,7 +2,7 @@
 
 # Variables
 PARTITION="/dev/disk3s1s1"
-THRESHOLD=4
+THRESHOLD=10
 EMAIL="sharifshaik006@gmail.com"
 ALERT_MESSAGE="Warning! Disk space on $PARTITION is below the threshold."
 
